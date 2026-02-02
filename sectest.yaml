@@ -1,0 +1,252 @@
+﻿allowLan: false
+mixed-port: 59981
+rules:
+  - MATCH, proxy_pool
+proxy-groups:
+  - name: proxy_pool
+    type: load-balance
+    proxies:
+      - 剩余流量：887.03 GB
+      - 未到期：长期有效
+      - 🇭🇰Hong Kong 01
+      - 🇭🇰Hong Kong 02
+      - 🇭🇰Hong Kong 03
+      - 🇭🇰Hong Kong 04
+      - 🇹🇼Taiwan 01
+      - 🇹🇼Taiwan 02
+      - 🇹🇼Taiwan 03
+      - 🇹🇼Taiwan 04
+      - 🇯🇵Japan 01
+      - 🇯🇵Japan 02
+      - 🇯🇵Japan 03
+      - 🇯🇵Japan 04
+      - 🇺🇸United States 01
+      - 🇺🇸United States 02
+      - 🇺🇸United States 03
+      - 🇺🇸United States 04
+      - 🇸🇬Singapore 01
+      - 🇸🇬Singapore 02
+      - 🇸🇬Singapore 03
+      - 🇸🇬Singapore 04
+      - 🇰🇷Korea 01
+      - 🇰🇷Korea 02
+      - 🇨🇦Canada 01
+      - 🇨🇦Canada 02
+      - 🇬🇧United Kingdom 01
+      - 🇬🇧United Kingdom 02
+      - 🇦🇶Antarctica 01
+      - 🇦🇶Antarctica 02
+    url: https://www.google.com
+    interval: 5
+    strategy: round-robin
+proxies:
+  - name: 剩余流量：887.03 GB
+    type: ss
+    server: drtnmjjhu.swmixx.cn
+    port: 7000
+    password: MjdlZmY4YWIyZDU0OGNkNw==:MWM0NGM4ZTUtZGY3MS00Zg==
+    cipher: 2022-blake3-aes-128-gcm
+
+  - name: 未到期：长期有效
+    type: ss
+    server: drtnmjjhu.swmixx.cn
+    port: 7000
+    password: MjdlZmY4YWIyZDU0OGNkNw==:MWM0NGM4ZTUtZGY3MS00Zg==
+    cipher: 2022-blake3-aes-128-gcm
+
+  - name: 🇭🇰Hong Kong 01
+    type: ss
+    server: drtnmjjhu.swmixx.cn
+    port: 7000
+    password: MjdlZmY4YWIyZDU0OGNkNw==:MWM0NGM4ZTUtZGY3MS00Zg==
+    cipher: 2022-blake3-aes-128-gcm
+
+  - name: 🇭🇰Hong Kong 02
+    type: ss
+    server: drtnmjjhu.swmixx.cn
+    port: 7001
+    password: MjdlZmY4YWIyZDU0OGNkNw==:MWM0NGM4ZTUtZGY3MS00Zg==
+    cipher: 2022-blake3-aes-128-gcm
+
+  - name: 🇭🇰Hong Kong 03
+    type: ss
+    server: sdtfrmnju.bgubvg.cn
+    port: 14787
+    password: MjdlZmY4YWIyZDU0OGNkNw==:MWM0NGM4ZTUtZGY3MS00Zg==
+    cipher: 2022-blake3-aes-128-gcm
+
+  - name: 🇭🇰Hong Kong 04
+    type: ss
+    server: sdtfrmnju.bgubvg.cn
+    port: 14788
+    password: MjdlZmY4YWIyZDU0OGNkNw==:MWM0NGM4ZTUtZGY3MS00Zg==
+    cipher: 2022-blake3-aes-128-gcm
+
+  - name: 🇹🇼Taiwan 01
+    type: ss
+    server: drtnmjjhu.swmixx.cn
+    port: 7002
+    password: MjdlZmY4YWIyZDU0OGNkNw==:MWM0NGM4ZTUtZGY3MS00Zg==
+    cipher: 2022-blake3-aes-128-gcm
+
+  - name: 🇹🇼Taiwan 02
+    type: ss
+    server: drtnmjjhu.swmixx.cn
+    port: 7003
+    password: MjdlZmY4YWIyZDU0OGNkNw==:MWM0NGM4ZTUtZGY3MS00Zg==
+    cipher: 2022-blake3-aes-128-gcm
+
+  - name: 🇹🇼Taiwan 03
+    type: ss
+    server: sdtfrmnju.bgubvg.cn
+    port: 14789
+    password: MjdlZmY4YWIyZDU0OGNkNw==:MWM0NGM4ZTUtZGY3MS00Zg==
+    cipher: 2022-blake3-aes-128-gcm
+
+  - name: 🇹🇼Taiwan 04
+    type: ss
+    server: sdtfrmnju.bgubvg.cn
+    port: 14790
+    password: MjdlZmY4YWIyZDU0OGNkNw==:MWM0NGM4ZTUtZGY3MS00Zg==
+    cipher: 2022-blake3-aes-128-gcm
+
+  - name: 🇯🇵Japan 01
+    type: ss
+    server: drtnmjjhu.swmixx.cn
+    port: 7004
+    password: MjdlZmY4YWIyZDU0OGNkNw==:MWM0NGM4ZTUtZGY3MS00Zg==
+    cipher: 2022-blake3-aes-128-gcm
+
+  - name: 🇯🇵Japan 02
+    type: ss
+    server: drtnmjjhu.swmixx.cn
+    port: 7005
+    password: MjdlZmY4YWIyZDU0OGNkNw==:MWM0NGM4ZTUtZGY3MS00Zg==
+    cipher: 2022-blake3-aes-128-gcm
+
+  - name: 🇯🇵Japan 03
+    type: ss
+    server: sdtfrmnju.bgubvg.cn
+    port: 14791
+    password: MjdlZmY4YWIyZDU0OGNkNw==:MWM0NGM4ZTUtZGY3MS00Zg==
+    cipher: 2022-blake3-aes-128-gcm
+
+  - name: 🇯🇵Japan 04
+    type: ss
+    server: sdtfrmnju.bgubvg.cn
+    port: 14792
+    password: MjdlZmY4YWIyZDU0OGNkNw==:MWM0NGM4ZTUtZGY3MS00Zg==
+    cipher: 2022-blake3-aes-128-gcm
+
+  - name: 🇺🇸United States 01
+    type: ss
+    server: drtnmjjhu.swmixx.cn
+    port: 7006
+    password: MjdlZmY4YWIyZDU0OGNkNw==:MWM0NGM4ZTUtZGY3MS00Zg==
+    cipher: 2022-blake3-aes-128-gcm
+
+  - name: 🇺🇸United States 02
+    type: ss
+    server: drtnmjjhu.swmixx.cn
+    port: 7007
+    password: MjdlZmY4YWIyZDU0OGNkNw==:MWM0NGM4ZTUtZGY3MS00Zg==
+    cipher: 2022-blake3-aes-128-gcm
+
+  - name: 🇺🇸United States 03
+    type: ss
+    server: sdtfrmnju.bgubvg.cn
+    port: 14793
+    password: MjdlZmY4YWIyZDU0OGNkNw==:MWM0NGM4ZTUtZGY3MS00Zg==
+    cipher: 2022-blake3-aes-128-gcm
+
+  - name: 🇺🇸United States 04
+    type: ss
+    server: sdtfrmnju.bgubvg.cn
+    port: 14794
+    password: MjdlZmY4YWIyZDU0OGNkNw==:MWM0NGM4ZTUtZGY3MS00Zg==
+    cipher: 2022-blake3-aes-128-gcm
+
+  - name: 🇸🇬Singapore 01
+    type: ss
+    server: drtnmjjhu.swmixx.cn
+    port: 7008
+    password: MjdlZmY4YWIyZDU0OGNkNw==:MWM0NGM4ZTUtZGY3MS00Zg==
+    cipher: 2022-blake3-aes-128-gcm
+
+  - name: 🇸🇬Singapore 02
+    type: ss
+    server: drtnmjjhu.swmixx.cn
+    port: 7009
+    password: MjdlZmY4YWIyZDU0OGNkNw==:MWM0NGM4ZTUtZGY3MS00Zg==
+    cipher: 2022-blake3-aes-128-gcm
+
+  - name: 🇸🇬Singapore 03
+    type: ss
+    server: sdtfrmnju.bgubvg.cn
+    port: 14795
+    password: MjdlZmY4YWIyZDU0OGNkNw==:MWM0NGM4ZTUtZGY3MS00Zg==
+    cipher: 2022-blake3-aes-128-gcm
+
+  - name: 🇸🇬Singapore 04
+    type: ss
+    server: sdtfrmnju.bgubvg.cn
+    port: 14796
+    password: MjdlZmY4YWIyZDU0OGNkNw==:MWM0NGM4ZTUtZGY3MS00Zg==
+    cipher: 2022-blake3-aes-128-gcm
+
+  - name: 🇰🇷Korea 01
+    type: ss
+    server: drtnmjjhu.swmixx.cn
+    port: 7010
+    password: MjdlZmY4YWIyZDU0OGNkNw==:MWM0NGM4ZTUtZGY3MS00Zg==
+    cipher: 2022-blake3-aes-128-gcm
+
+  - name: 🇰🇷Korea 02
+    type: ss
+    server: sdtfrmnju.bgubvg.cn
+    port: 14797
+    password: MjdlZmY4YWIyZDU0OGNkNw==:MWM0NGM4ZTUtZGY3MS00Zg==
+    cipher: 2022-blake3-aes-128-gcm
+
+  - name: 🇨🇦Canada 01
+    type: ss
+    server: drtnmjjhu.swmixx.cn
+    port: 7011
+    password: MjdlZmY4YWIyZDU0OGNkNw==:MWM0NGM4ZTUtZGY3MS00Zg==
+    cipher: 2022-blake3-aes-128-gcm
+
+  - name: 🇨🇦Canada 02
+    type: ss
+    server: sdtfrmnju.bgubvg.cn
+    port: 14798
+    password: MjdlZmY4YWIyZDU0OGNkNw==:MWM0NGM4ZTUtZGY3MS00Zg==
+    cipher: 2022-blake3-aes-128-gcm
+
+  - name: 🇬🇧United Kingdom 01
+    type: ss
+    server: drtnmjjhu.swmixx.cn
+    port: 7014
+    password: MjdlZmY4YWIyZDU0OGNkNw==:MWM0NGM4ZTUtZGY3MS00Zg==
+    cipher: 2022-blake3-aes-128-gcm
+
+  - name: 🇬🇧United Kingdom 02
+    type: ss
+    server: sdtfrmnju.bgubvg.cn
+    port: 17831
+    password: MjdlZmY4YWIyZDU0OGNkNw==:MWM0NGM4ZTUtZGY3MS00Zg==
+    cipher: 2022-blake3-aes-128-gcm
+
+  - name: 🇦🇶Antarctica 01
+    type: ss
+    server: drtnmjjhu.swmixx.cn
+    port: 7012
+    password: MjdlZmY4YWIyZDU0OGNkNw==:MWM0NGM4ZTUtZGY3MS00Zg==
+    cipher: 2022-blake3-aes-128-gcm
+
+  - name: 🇦🇶Antarctica 02
+    type: ss
+    server: sdtfrmnju.bgubvg.cn
+    port: 14799
+    password: MjdlZmY4YWIyZDU0OGNkNw==:MWM0NGM4ZTUtZGY3MS00Zg==
+    cipher: 2022-blake3-aes-128-gcm
+
